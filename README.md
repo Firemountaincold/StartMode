@@ -4,7 +4,7 @@
 ![image](https://github.com/Firemountaincold/StartMode/blob/main/Image.png)
 ## 介绍
 C#初学者的练手之作。
-[下载链接]()
+[下载链接](https://github.com/Firemountaincold/StartMode/blob/main/StartMode.rar)
 ## 更新文档：
 ### 2021.3.20：
 #### 1.0：
