@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "StartMode/1.0.3.20": {
+        "dependencies": {
+          "Interop.IWshRuntimeLibrary": "1.0.0.0"
+        },
+        "runtime": {
+          "StartMode.dll": {}
+        }
+      },
+      "Interop.IWshRuntimeLibrary/1.0.0.0": {
+        "runtime": {
+          "Interop.IWshRuntimeLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "5.7.2.28"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StartMode/1.0.3.20": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.IWshRuntimeLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\lenovo\source\repos\StartMode\StartMode\bin\Debug\netcoreapp3.1\StartMode.exe
+C:\Users\lenovo\source\repos\StartMode\StartMode\bin\Debug\netcoreapp3.1\StartMode.deps.json
+C:\Users\lenovo\source\repos\StartMode\StartMode\bin\Debug\netcoreapp3.1\StartMode.runtimeconfig.json
+C:\Users\lenovo\source\repos\StartMode\StartMode\bin\Debug\netcoreapp3.1\StartMode.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\StartMode\StartMode\bin\Debug\netcoreapp3.1\StartMode.dll
+C:\Users\lenovo\source\repos\StartMode\StartMode\bin\Debug\netcoreapp3.1\StartMode.pdb
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.Form1.resources
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.csproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.dll
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.pdb
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.genruntimeconfig.cache
+C:\Users\lenovo\source\repos\StartMode\StartMode\bin\Debug\netcoreapp3.1\Interop.IWshRuntimeLibrary.dll
+C:\Users\lenovo\source\repos\StartMode\StartMode\obj\Debug\netcoreapp3.1\StartMode.csproj.CopyComplete

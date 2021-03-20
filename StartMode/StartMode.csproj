@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Terminal.ico</ApplicationIcon>
+    <Authors>李呤泽</Authors>
+    <Company>LLZ@2021</Company>
+    <Copyright>李呤泽</Copyright>
+    <Version>1.0.3.20</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.IWshRuntimeLibrary">
+      <HintPath>..\..\..\..\Downloads\Compressed\X86\Interop.IWshRuntimeLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
