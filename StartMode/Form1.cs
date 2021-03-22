@@ -151,7 +151,7 @@ namespace StartMode
             {
                 var shell = new IWshRuntimeLibrary.WshShell();
                 var shortcut = (IWshRuntimeLibrary.IWshShortcut)shell.CreateShortcut(lnkFilePath+"StartMode.lnk");
-                shortcut.TargetPath = Assembly.GetEntryAssembly().Location;
+                shortcut.TargetPath = Assembly.GetEntryAssembly().Location.Replace("dll","exe");
                 shortcut.Arguments = args;
                 shortcut.WorkingDirectory = AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
                 shortcut.Save();

@@ -1,0 +1,6 @@
+D:\小程序\我的小程序\StartMode\StartMode.exe
+D:\小程序\我的小程序\StartMode\StartMode.dll
+D:\小程序\我的小程序\StartMode\StartMode.deps.json
+D:\小程序\我的小程序\StartMode\StartMode.runtimeconfig.json
+D:\小程序\我的小程序\StartMode\StartMode.pdb
+D:\小程序\我的小程序\StartMode\Interop.IWshRuntimeLibrary.dll
