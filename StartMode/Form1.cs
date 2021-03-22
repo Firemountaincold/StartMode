@@ -8,6 +8,7 @@ namespace StartMode
 {
     public partial class Form1 : Form
     {
+        public bool selfstart = false;
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +28,9 @@ namespace StartMode
                     prow.Start();
                 }
                 sr.Close();
+                System.Threading.Thread.Sleep(1000);
+                Application.Exit();
+                Process.GetCurrentProcess().Kill();
             }
             catch (Exception)
             {
@@ -48,6 +52,9 @@ namespace StartMode
                     pror.Start();
                 }
                 sr.Close();
+                System.Threading.Thread.Sleep(1000);
+                Application.Exit();
+                Process.GetCurrentProcess().Kill();
             }
             catch (Exception)
             {
@@ -123,8 +130,19 @@ namespace StartMode
         private void buttonstart_Click(object sender, EventArgs e)
         {
             string user = Environment.UserName;
-            string startpath = @"C:\Users\"+user+@"\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\";
-            CreateShortcut(startpath);            
+            string startpath = @"C:\Users\" + user + @"\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\";
+            if (!selfstart)
+            {
+                CreateShortcut(startpath);
+                selfstart = true;
+                buttonstart.Text = "取消自启";
+            }
+            else
+            {
+                DeleteShortcut(startpath);
+                selfstart = false;
+                buttonstart.Text = "自启动";
+            }
         }
 
         private static void CreateShortcut(string lnkFilePath, string args = "")
@@ -143,6 +161,11 @@ namespace StartMode
             {
                 MessageBox.Show(e.Message, "警告");
             }
+        }
+
+        private static void DeleteShortcut(string lnkFilePath)
+        {
+            File.Delete(lnkFilePath + "StartMode.lnk");
         }
     }
 }
